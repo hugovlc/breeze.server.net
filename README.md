@@ -3,24 +3,29 @@ Is supposed to add custom actions to eCdT apps that still use Breeze.js
 
 ## To build a new package
 
-`cd dotnet`
-`dotnet build -c Release .\Breeze.AspNetCore.NH.Build.sln`
-`dotnet pack .\Breeze.AspNetCore.NH.Build.sln -c Release -o  YOUR_REPOPATH\packages\ -p:PackageVersion=VERSION-ecdt`
+```Exxecute
+cd dotnet
+dotnet build -c Release .\Breeze.AspNetCore.NH.Build.sln
+dotnet pack .\Breeze.AspNetCore.NH.Build.sln -c Release -o  YOUR_REPOPATH\packages\ -p:PackageVersion=VERSION-ecdt
+```
 
 Example:
 
-`cd dotnet`
-`dotnet build -c Release .\Breeze.AspNetCore.NH.Build.sln`
-`dotnet pack .\Breeze.AspNetCore.NH.Build.sln -c Release -o  D:\eCdT-Evolution\packages\ -p:PackageVersion=7.5.2-ecdt`
-
+```Execute
+cd dotnet
+dotnet build -c Release .\Breeze.AspNetCore.NH.Build.sln
+dotnet pack .\Breeze.AspNetCore.NH.Build.sln -c Release -o D:\eCdT-Evolution\packages\ -p:PackageVersion=7.5.2-ecdt
+```
 
 ## To merge the main repo with the fork:
 
-`git remote add upstream https://github.com/Breeze/breeze.server.net.git`
-`git fetch upstream --tags`
-`git checkout master`
-`git reset --hard 7.5.2`
-`git push origin master --force`
+```Execute
+git remote add upstream https://github.com/Breeze/breeze.server.net.git
+git fetch upstream --tags
+git checkout master
+git reset --hard 7.5.2
+git push origin master --force
+```
 
 
 # [Breeze](http://breeze.github.io/doc-main/) Data Management for [.NET Servers](http://breeze.github.io/doc-net/)
