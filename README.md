@@ -1,3 +1,7 @@
+# This is a forked version at (https://github.com/hugovlc/breeze.server.net.git)
+Is supposed to add custom actions to eCdT apps that still use Breeze.js
+
+
 # [Breeze](http://breeze.github.io/doc-main/) Data Management for [.NET Servers](http://breeze.github.io/doc-net/)
 
 **Breeze** is a library from [IdeaBlade](https://www.ideablade.com/) that helps you manage data in rich client applications. If you store data in a database, query and save those data as complex object graphs, and share these graphs across multiple screens of your JavaScript or C# client, Breeze is for you.
